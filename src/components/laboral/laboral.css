@@ -1,0 +1,57 @@
+.laboral-container {
+	width: 70%;
+	float: left;
+	padding-left: 90px;
+}
+
+.laboral-container h2 {
+	text-align: center;
+}
+
+.laboral-accordion {
+	margin: 20px 0px;
+	transition: 0.2s ease;
+}
+
+.laboral-title-section {
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.laboral-accordion:hover {
+	-webkit-box-shadow: 1px 1px 15px 0px #8d8d8d;
+	box-shadow: 1px 1px 15px 0px #8d8d8d;
+}
+.laboral-accordion:focus .accordion {
+	outline: none;
+}
+
+.laboral-responsability {
+	font-weight: 600;
+}
+
+.laboral-title {
+	font-weight: 600;
+}
+
+.laboral-list-item {
+	padding: 5px;
+	width: 90%;
+}
+
+@media (max-width: 600px) {
+	.laboral-container {
+		width: 100%;
+		float: left;
+		padding: 20px;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1199px) {
+	.laboral-container {
+		width: 100%;
+		float: left;
+		padding: 20px 40px;
+	}
+}

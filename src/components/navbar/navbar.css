@@ -1,0 +1,11 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	-webkit-box-shadow: 1px 1px 15px 0px #8d8d8d;
+	box-shadow: 1px 1px 15px 0px #8d8d8d;
+}
+
+.navbar-toggler {
+	border: none;
+}
