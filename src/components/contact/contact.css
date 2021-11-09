@@ -45,14 +45,29 @@
 		width: 100%;
 		background-color: white;
 	}
+	.form-wrapper {
+		position: relative;
+		background-color: #fff;
+		margin: 10px 5%;
+		padding: 10px 20px;
+		top: -80px;
+	}
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 200px) and (max-width: 1199px) {
 	.form-container {
-		padding: 40px;
+		padding: 10px 20px;
 		background-color: white;
 		width: 100%;
 		float: left;
 		z-index: 500;
+	}
+
+	.form-wrapper {
+		position: relative;
+		background-color: #fff;
+		margin: 10px 5%;
+		padding: 20px 30px;
+		top: -50px;
 	}
 }

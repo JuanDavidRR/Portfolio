@@ -1,5 +1,4 @@
 import "./intro.css";
-import david from "../../assets/images/david.png";
 import { Accordion } from "react-bootstrap";
 
 const Intro = () => {
@@ -10,7 +9,7 @@ const Intro = () => {
           <h2 className="intro-intro"><span className="important">Hola,</span> yo soy...</h2>
           <h1 className="intro-name">David Romero</h1>
           <hr/>
-          <img src={david} alt="David Romero" className="intro-img-mobile" />
+          <img src="https://i.imgur.com/7CBbUNe.png" alt="David Romero" className="intro-img-mobile" />
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">DESARROLLADOR WEB</div>
