@@ -1,15 +1,26 @@
+import { useContext } from "react";
 import { Accordion } from "react-bootstrap"
 import '../components/laboral/laboral.css'
+import { ThemeContext } from "../context";
 
 export const Estudios = () => {
+    const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
     return (
-        <div id="experiencia" className="laboral-container pt-5 pb-5">
+        <div className="laboral-container pt-5"style={{
+            backgroundColor: darkMode ? "#222" : "white",
+            color: darkMode && "white",
+            paddingBottom: '7%'
+        }}>
             <h2 className="laboral-title-section">Formación Académica</h2>
             <hr/>
             <p>Si deseas soporte de cada uno de estos titulos y certificados puedes <a href="#contacto">CONTACTARME</a> y te enviaré el soporte requerido</p>
             <Accordion defaultActiveKey="2">
 
-            <Accordion.Item className="laboral-accordion" eventKey="0">
+            <Accordion.Item className="laboral-accordion" eventKey="0" style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} >
 					<Accordion.Header> <h5 className="laboral-title">Educación Principal </h5> </Accordion.Header>
 					<Accordion.Body>
                         <ul className="laboral-list">
@@ -32,7 +43,10 @@ export const Estudios = () => {
           </Accordion.Body>
 			</Accordion.Item>
 
-			<Accordion.Item className="laboral-accordion" eventKey="1">
+			<Accordion.Item className="laboral-accordion" eventKey="1" style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} >
 					<Accordion.Header> <h5 className="laboral-title">Educación Secundaria</h5> 
                     </Accordion.Header>
 					<Accordion.Body>

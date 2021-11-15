@@ -1,7 +1,11 @@
 import "./intro.css";
 import { Accordion } from "react-bootstrap";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
   return (
     <div id="perfil" className="intro row row-cols-1 row-cols-lg-1 row-cols-md-1 row-cols-sm-1">
       <div className="intro-left col mt-5">
@@ -19,12 +23,15 @@ const Intro = () => {
           </div>
 
           <p className="intro-description">
-            Desarrollador web, amante del marketing digital y automáta al 100% para llegar a ser la mejor versión de mí mismo. Los usuarios son mi prioridad, por ello mediante mis conocimientos en UX/UI design simplifico su experiencia y con SEO impulso sus metas comerciales.
+          Desarrollador y diseñador web con conocimientos en tecnologías web como <b>React, WordPress</b> y los siempre confiables <b>HTML, CSS y JS</b>; igualmente empleo el uso de herramientas de la suite de Adobe como Photoshop, Premiere Pro y Adobe Xd para impactar positivamente la experiencia de los usuarios. Mis clientes también son importantes, es por eso que potencio mis proyectos como páginas web, aplicaciones o tiendas en línea mediante el SEO para prosperar metas comerciales
           </p>
 
         <Accordion className="intro-skills">
-				<Accordion.Item eventKey="0">
-					<Accordion.Header> <h4 className="pt-2">Habilidades y conocimientos</h4> </Accordion.Header>
+				<Accordion.Item style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} eventKey="0" >
+					<Accordion.Header> <h4 className="pt-2">Habilidades y conocimientos</h4>  </Accordion.Header>
 					<Accordion.Body>
           <div>
               <div className="intro-skills-wrapper">
@@ -90,7 +97,11 @@ const Intro = () => {
         </div>
 </div>
 
-      <div className="intro-right col">
+      <div className="intro-right col" style={{
+				backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode ? 'white' : "#222",
+        backgroundImage: darkMode ? "url('https://i.imgur.com/TsjnXLJ.jpg')" : "url('https://i.imgur.com/pNZMTtj.jpg')" 
+			}}>
         
         <img src="https://i.imgur.com/7CBbUNe.png" alt="David Romero" className="intro-img" />
         <div className="intro-contact mt-5">

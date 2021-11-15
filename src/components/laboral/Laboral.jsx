@@ -1,14 +1,24 @@
+import { useContext } from "react";
 import { Accordion } from "react-bootstrap"
+import { ThemeContext } from "../../context";
 import './laboral.css'
 
 export const Laboral = () => {
+    const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
     return (
-        <div id="experiencia" className="laboral-container pt-5">
+        <div id="experiencia" className="laboral-container pt-5"  style={{
+            backgroundColor: darkMode ? "#222" : "white",
+            color: darkMode && "white",
+        }}>
             <h2 className="laboral-title-section">Experiencia Laboral</h2>
             <hr/>
-            <Accordion defaultActiveKey="2">
+            <Accordion defaultActiveKey="2" >
 
-            <Accordion.Item className="laboral-accordion" eventKey="0">
+            <Accordion.Item className="laboral-accordion" eventKey="0" style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}}>
 					<Accordion.Header> <h5 className="laboral-title">Digital Ware <small>(2019-2020)</small></h5> </Accordion.Header>
 					<Accordion.Body>
                         <h4>Ingeniero Junior</h4>
@@ -35,7 +45,10 @@ export const Laboral = () => {
           </Accordion.Body>
 			</Accordion.Item>
 
-			<Accordion.Item className="laboral-accordion" eventKey="1">
+			<Accordion.Item style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} className="laboral-accordion" eventKey="1">
 					<Accordion.Header> <h5 className="laboral-title">Teleperformance <small>(2020-2021)</small></h5> </Accordion.Header>
 					<Accordion.Body>
                         <h4>Customer Service Representative</h4>
@@ -56,7 +69,10 @@ export const Laboral = () => {
           </Accordion.Body>
 			</Accordion.Item>
 
-            <Accordion.Item className="laboral-accordion" eventKey="2">
+            <Accordion.Item style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} className="laboral-accordion" eventKey="2">
 					<Accordion.Header> <h5 className="laboral-title">Grupo Lyown <small>(2021)</small></h5> </Accordion.Header>
 					<Accordion.Body>
                         <h4>Desarrollador Web</h4>

@@ -5,13 +5,11 @@
 }
 
 .form-text {
-	color: black;
 	text-align: center;
 }
 
 .form-title {
 	text-align: center;
-	color: rgb(44, 44, 44);
 	font-weight: bold;
 }
 
@@ -19,7 +17,6 @@
 	padding: 20px;
 	width: 76%;
 	height: 80vh;
-	margin-top: 5%;
 	float: left;
 	z-index: 500;
 	background: url("https://i.imgur.com/BxUwqM1.jpg");
@@ -57,7 +54,7 @@
 @media (min-width: 200px) and (max-width: 1199px) {
 	.form-container {
 		padding: 10px 20px;
-		background-color: white;
+		height: 50vh;
 		width: 100%;
 		float: left;
 		z-index: 500;

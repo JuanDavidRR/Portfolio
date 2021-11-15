@@ -1,11 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
 import { Modal, Button } from "react-bootstrap";
 
 import { useForm } from "../../hooks/useForm";
+import { ThemeContext } from "../../context";
 
 export const Form = () => {
+	const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
 	const [formValues, handleInputChange, reset] = useForm({
 		nombre: "",
 		email: "",
@@ -45,7 +48,12 @@ export const Form = () => {
 
 	return (
 		<div className="form-container" id="contacto">
-			<div className="form-wrapper">
+			<div
+				className="form-wrapper"
+				style={{
+					color: darkMode && "#222",
+				}}
+			>
 				<h2 className="form-title">Contáctame</h2>
 				<hr />
 				<p className="form-text">
