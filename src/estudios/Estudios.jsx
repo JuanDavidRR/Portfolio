@@ -39,6 +39,9 @@ export const Estudios = () => {
                             <li className="laboral-list-item">
                             <p>Máster Marketing digital y análitica web <small>(2021-2022)</small></p>
                             </li>
+                            <li className="laboral-list-item">
+                            <p>Ingeniería de software<small>(2021-actualmente)</small></p>
+                            </li>
                         </ul>
           </Accordion.Body>
 			</Accordion.Item>
@@ -70,29 +73,46 @@ export const Estudios = () => {
                               Udemy Universidad CSS de cero a experto (2021)
                             </li>
                             <li className="laboral-list-item">
-                           Udemy Universidad HTML de cero a experto (2021)
+                            Udemy Universidad HTML de cero a experto (2021)
                             </li>
                             <li className="laboral-list-item">
                             Scrum Fundamentals Certified SCRUMStudy (2021)
-                            </li>
-                           
-                            <li className="laboral-list-item">
-                            SoloLearn CSS certificate (2021)
-                            </li>
-                            <li className="laboral-list-item">
-                            SoloLearn HTML certificate (2021)
-                            </li>
-                            <li className="laboral-list-item">
-                            SoloLearn JavaScript certificate (2021)
                             </li>
                             <li className="laboral-list-item">
                             SoloLearn React certificate (2021)
                             </li>
                             <li className="laboral-list-item">
-                            SoloLearn Responsive Web Design Certificate (2021)
+                            SoloLearn SQL Certificate (2021)
                             </li>
                             <li className="laboral-list-item">
-                            SoloLearn SQL Certificate (2021)
+                            Curso de Buenas Prácticas de SEO (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            SEO Técnico (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Curso de Estrategia y Planeación de Contenidos para SEO (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Maquetación profesional en CSS (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Curso Práctico de JavaScript (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Curso profesional de HTML y CSS (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Creación de tiendas con Shopify (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Responsive Design: Maquetación Mobile First (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Google Search Console para SEO (2022)
+                            </li>
+                            <li className="laboral-list-item">
+                            Curso de Fundamentos de Ecommerce (2022)
                             </li>
                             
                         </ul>

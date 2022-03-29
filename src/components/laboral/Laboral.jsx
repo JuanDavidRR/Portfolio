@@ -13,7 +13,7 @@ export const Laboral = () => {
         }}>
             <h2 className="laboral-title-section">Experiencia Laboral</h2>
             <hr/>
-            <Accordion defaultActiveKey="2" >
+            <Accordion defaultActiveKey="3" >
 
             <Accordion.Item className="laboral-accordion" eventKey="0" style={{
 				backgroundColor: darkMode ? "#222" : "white",
@@ -96,6 +96,40 @@ export const Laboral = () => {
                             </li>
                             <li className="laboral-list-item">
                                 Optimización SEO para los sitios web de los clientes mediante Yoast Seo, RankMath, Semrush y los servicios de Google
+                            </li>
+                            
+                        </ul>
+        
+          </Accordion.Body>
+			</Accordion.Item>
+
+            <Accordion.Item style={{
+				backgroundColor: darkMode ? "#222" : "white",
+				color: darkMode && "white",
+			}} className="laboral-accordion" eventKey="3">
+					<Accordion.Header> <h5 className="laboral-title">Inlat <small>(2022)</small></h5> </Accordion.Header>
+					<Accordion.Body>
+                        <h4>Desarrollador Web y especialista SEO</h4>
+                        <hr/>
+                        <ul className="laboral-list">
+                            <p className="laboral-responsability">Responsabilidades</p>
+                            <li className="laboral-list-item">
+                                Creación de toda clase sitios web mediante el CMS WordPress con Elementor o Divi, HTML, CSS, php y JavaScript personalizado
+                            </li>
+                            <li className="laboral-list-item">
+                                Líder área de SEO potenciando los resultados y buenas prácticas de los proyectos usando herramientas como RankMath, Google search console, ahrefs, Mangools, entre otras
+                            </li>
+                            <li className="laboral-list-item">
+                              Optimizar las páginas web para lograr una carga rápida y mejorar la experiencia del usuario
+                            </li>
+                            <li className="laboral-list-item">
+                                Proteger los sitios web frente a vulnerabilidades
+                            </li>
+                            <li className="laboral-list-item">
+                                Diseñar las interfaces gráficas para implementarlas en los sitios aplicando el diseño UX/UI 
+                            </li>
+                            <li className="laboral-list-item">
+                                Integraciones web como APIS para potenciar el alcance de los proyectos
                             </li>
                             
                         </ul>

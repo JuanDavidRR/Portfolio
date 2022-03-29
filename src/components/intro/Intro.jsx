@@ -18,7 +18,7 @@ const Intro = () => {
             <div className="intro-title-wrapper">
               <div className="intro-title-item">DESARROLLADOR WEB</div>
               <div className="intro-title-item">DISEÑADOR UI/UX </div>
-              <div className="intro-title-item">OPTIMIZADOR SEO</div>
+              <div className="intro-title-item">ESTRATEGA SEO</div>
             </div>
           </div>
 
@@ -112,7 +112,7 @@ const Intro = () => {
                 <li><span className="list-item"><i class="fa fa-envelope"></i></span> <a href="mailto:juandavidrom@outlook.com"> juandavidrom@outlook.com</a></li>
                 <li><span className="list-item"><i class="fas fa-mobile-alt"></i></span> <a target="_blank" href="https://wa.link/c1t88n" rel='noreferrer'> +57 320 8424424</a>  </li>
                 <li><span className="list-item"><i class="fab fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/juan-david-romero-rodas-58b7621a8/" target="_blank" rel="noreferrer">Perfil Linkedin</a> </li>
-                <li><span className="list-item"><i class="far fa-edit"></i></span> <a href="https://janrebel.com/" target="_blank" rel="noreferrer">Jan Rebel</a></li>
+                <li><span className="list-item"><i class="fa-solid fa-desktop"></i></span> <a href="https://janrebel.com/" target="_blank" rel="noreferrer">Jan Rebel</a></li>
                 <li><span className="list-item"><i class="fab fa-github"></i></span> <a href="https://github.com/JuanDavidRR" target="_blank" rel="noreferrer">JuanelCJ</a></li>
                 <a href="#contacto" className="btn btn-primary mt-2">Enviar Mensaje</a>
             </ul>
